@@ -15,11 +15,11 @@
 </nav>
 <br>
     <div class="container">
-        <div class="row" >
+        <div class="row">
 
             <div class="col-2">
             </div>
-            <div class="col-8"id="partida">
+            <div class="col-8" id="partida">
             <?php
                 include('misfunciones.php');
                 //$mysqli guarda la conexión a la BBDD
@@ -43,9 +43,11 @@
     </div>
     <script src="js/jquery.js"></script>
 <script>
-function cargaTema(_tema){
-$('#partida').load('partida.php',{tema: _tema});
-}
+    function cargaTema(_tema){
+        $('#partida').load('partida.php', {tema: _tema});
+    }
+
+
 </script>
 </body>
 </html>
